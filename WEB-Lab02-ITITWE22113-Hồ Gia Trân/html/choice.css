@@ -1,0 +1,35 @@
+a.active {
+    background-color: #e8a7d3;
+    color: white;
+}
+.music{
+    background-color: white;
+    width: 140px;
+    height: 140px;
+    border: 2px solid rgb(164, 203, 245);
+    border-radius: 5px;
+    position: absolute; top: 85px; left: 60px;
+}
+.book{
+    width: 140px;
+    height: 140px;
+    border: 2px solid rgb(164, 203, 245);
+    border-radius: 5px;
+    position: absolute; top: 85px; left: 260px;
+    background-color: white;
+}
+.hangout{
+    width: 140px;
+    height: 140px;
+    border: 2px solid rgb(164, 203, 245);
+    border-radius: 5px;
+    position: absolute; top: 85px; left: 460px;
+    background-color: white;
+}
+.gif{
+    width: 190px;
+    height: 190px;
+    border: none;
+    border-radius: 5px;
+    position:absolute; bottom:18%;right: 4%;
+}

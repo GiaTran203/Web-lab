@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link href="style.css" rel="stylesheet">   
+    <link rel="icon" type="image/x-icon" href="../images/LogoIU.png">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.6/examples/checkout/">
+    <script src="https://getbootstrap.com/docs/4.6/examples/checkout/"></script>
+</head>
+<body>
+    <img src="../images/LogoIU.png" width="100px">
+    <h1>Survey</h1>
+    <p>If you have a moment, we'd appreciate it if you would fill out this survey.</p>   
+    <form action="/Exercise 1/html/Submit.html" class="form">
+        <h2>Your information:</h2>
+        <label for="fname"><b>First name:&ensp;&nbsp;</b></label>
+        <input type="text" id="fname" name="fname" size="45"><br>
+        <label for="lname" ><b>Last name:&emsp;</b></label>
+        <input type="text" id="lname" name="lname" size="45"><br>
+        <label for="email" id="email" name="email"><b>Email:&emsp;&ensp;&emsp;&ensp;</b></label>
+        <input type="text" id="email" name="email" size="45"><br>
+        <label for="dod" id="dob" name="dob"><b>Date of Birth:</b></label>
+        <input type="text" id="dob" name="dob" size="45"><br>
+        <h2>How did you hear about IU:</h2>
+        <input type="radio" id="se" name="se">
+        <label for="se">Search engine</label>
+        <input type="radio" id="wm" name="wm">
+        <label for="wm" id="wm">Word of mouth</label>
+        <input type="radio" id="sm" name="sm">
+        <label for="sm" id="sm">Social Media</label>
+        <input type="radio" id="other" name="other">
+        <label for="other" id="other">Other</label>
+        <h2>Would you like to receive annoucements about new CDs and special offers?</h2>
+        <input type="checkbox" value="q1">
+        <label for="q1">YES, I'd like that.</label><br>
+        <input type="checkbox" value="q2">
+        <label for="q2">YES, please send me email annoucements.</label><br><br>
+        <label for="combo">Please contact me by:</label>
+        <select name="Type">
+            <option>Email or postal mail</option>
+            <option>Email only</option>
+            <option>Postal mail only</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

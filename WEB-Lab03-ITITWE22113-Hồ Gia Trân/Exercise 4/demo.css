@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    
+}
+a {
+    font-family: 'Dancing Script'; font-size: 20px;
+}
+p {
+    font-size: 14px;
+}
+
+.left {
+    padding: 3px;
+    text-align: center;
+    border: 1px solid;
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+}
+  
+.main {
+    border: 1px solid;
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+    text-align:justify;
+    padding: 7px;
+    
+}
+
+.right {
+    padding: 3px;   
+    border: 1px solid;
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+    height: 370px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 700px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+
+.box1{
+    width: 180px; height: 120px;
+    border: 2px solid rgba(53, 50, 50, 0.705);
+    border-radius: 40px;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    margin-left: 3%;
+}
+
+.cell{
+    width: 100%;
+    border: 1px solid #252222;
+}
+footer{
+    text-align: center;
+}
+#header{
+    background: #c3b1b1;
+    padding: 15px;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+#header button{
+    font-size: 25px;
+    float: right;
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+/*Dark mode*/
+body.dark{
+    background-color: #1f1c1c;
+    color: #fff;
+}
+body.dark #header{
+    background: #3f3e3e;
+}
+body.dark #header #switch-mode{
+    color: #fff;
+}
+body.dark .cell{
+    border: 1px solid #fff;
+}
+body.dark .box1{
+    border: 2px solid #fff;
+}

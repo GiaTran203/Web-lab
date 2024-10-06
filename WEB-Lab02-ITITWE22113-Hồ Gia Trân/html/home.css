@@ -1,0 +1,33 @@
+.avatar{
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(164, 203, 245);
+    border-radius: 5px;
+    position: absolute; top: 30px; left: 650px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #1a01015e;
+}
+li a {
+    display: block;
+    color: rgb(243, 172, 184);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #5f5252;
+}
+ul {
+    border: 1px solid #555;
+}
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+li:last-child {
+    border-bottom: none;
+}
